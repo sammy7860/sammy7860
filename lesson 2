@@ -1,0 +1,7 @@
+ass Testing {
+  public static void main(String [] args) {
+    // place your code here!System.out.println(x); // print to console
+    System.out.println("Hello " +  badmosh );
+    // your code ends here!
+  }
+}

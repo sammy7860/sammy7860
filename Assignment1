@@ -1,0 +1,61 @@
+package assignment1;
+import java.util.Scanner;
+/*
+    
+*/
+public class Assignment1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input length and width
+        System.out.print("Enter the length of the rectangle: ");
+        double length = scanner.nextDouble();
+
+        System.out.print("Enter the width of the rectangle: ");
+        double width = scanner.nextDouble();
+
+        // Compute area
+        double area = length * width;
+
+        // Output result
+        System.out.printf("The area of the rectangle is: %.2f\n", area);
+        
+                // Input radius
+        System.out.printf("Enter the radius of the circle: ");
+        double radius = scanner.nextDouble();
+
+        // Compute area
+        area = Math.PI * Math.pow(radius, 2);
+
+        // Output result
+        System.out.printf("The area of the circle is: %.2f\n", area);
+                // Input height and radius
+        System.out.print("Enter the radius of the cylinder: ");
+        radius = scanner.nextDouble();
+
+        System.out.print("Enter the height of the cylinder: ");
+        double height = scanner.nextDouble();
+
+        // Compute volume and surface area
+        double volume = Math.PI * Math.pow(radius, 2) * height;
+        double surfaceArea = 2 * Math.PI * radius * (radius + height);
+
+        // Output results
+        System.out.printf("The volume of the cylinder is: %.2f\n", volume);
+        System.out.printf("The surface area of the cylinder is:%.2f\n", + surfaceArea);
+  
+        final double g = 9.8; // Acceleration due to gravity
+
+       
+
+        // Input length
+        System.out.print("Enter the length of the pendulum in meters: ");
+        double L = scanner.nextDouble();
+
+        // Compute period
+        double P = 2 * Math.PI * Math.sqrt(L / g);
+
+        // Output result
+        System.out.printf("The time period of the pendulum is: %.2f seconds\n", P);
+    }
+}

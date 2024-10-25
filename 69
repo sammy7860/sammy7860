@@ -1,4 +1,4 @@
-ass Testing {
+class Testing {
   public static void main(String [] args) {
     // place your code here!
     // place your code here!

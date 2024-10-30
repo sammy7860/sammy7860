@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int a = 6;
+        int b = 4;
+        int product = a * b; // Calculate the product of 6 and 4
+        
+        // Count the number of characters in the output string
+        String output = "The product of " + a + " and " + b + " is " + product + ".";
+        int numberOfCharacters = output.length(); // Get the number of characters in the output string
+
+        // Print the output string with the correct format
+        System.out.println(output);
+        // Print the number of characters in the output string
+        System.out.println("Number of characters: " + numberOfCharacters);
+    }
+}

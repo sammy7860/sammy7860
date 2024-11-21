@@ -1,0 +1,12 @@
+import java.lang.Math;
+
+import java.lang.Math;
+
+class table {
+    public static void main(String [] args) {
+        for (int x = 0; x < 7; x++) {
+            double sr = Math.sqrt(x);
+            System.out.printf("%d %.4f\n", x, sr);
+        }
+    }
+}
